@@ -204,7 +204,7 @@ func main() {
 		"-netdelay", "none",
 		"-no-snapshot",
 		"-wipe-data",
-		"-gpu", "swiftshader_indirect"}, startCustomFlags...)...,
+		"-gpu", "moltenvk_indirect"}, startCustomFlags...)...,
 	).SetStdout(&output).SetStderr(&output)
 
 	log.Infof("Starting device")
