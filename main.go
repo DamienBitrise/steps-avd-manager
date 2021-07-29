@@ -203,7 +203,8 @@ func main() {
 		"-no-boot-anim",
 		"-netdelay", "none",
 		"-no-snapshot",
-		"-wipe-data"}, startCustomFlags...)...,
+		"-wipe-data",
+		"-gpu", "host"}, startCustomFlags...)...,
 	).SetStdout(&output).SetStderr(&output)
 
 	log.Infof("Starting device")
