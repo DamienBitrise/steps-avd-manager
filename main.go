@@ -204,7 +204,7 @@ func main() {
 		"-netdelay", "none",
 		"-no-snapshot",
 		"-wipe-data",
-		//"-gpu", "auto"
+		"-gpu", "auto"
 		}, startCustomFlags...)...,
 	).SetStdout(&output).SetStderr(&output)
 
