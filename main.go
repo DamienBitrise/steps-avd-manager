@@ -204,8 +204,7 @@ func main() {
 		"-netdelay", "none",
 		"-no-snapshot",
 		"-wipe-data",
-		"-gpu", "auto"
-		}, startCustomFlags...)...,
+		"-gpu", "auto"}, startCustomFlags...)...,
 	).SetStdout(&output).SetStderr(&output)
 
 	log.Infof("Starting device")
