@@ -199,7 +199,7 @@ func main() {
 		"-verbose",
 		"-show-kernel",
 		"-no-audio",
-		// "-no-window",
+		"-no-window",
 		"-no-boot-anim",
 		"-netdelay", "none",
 		"-no-snapshot",
